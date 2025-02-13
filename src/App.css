@@ -1,0 +1,27 @@
+
+.ba{
+    background-image:url("C:\Users\USER\Desktop\my project\portfolio\design\src\assets\Gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+/* globals.css */
+
+@layer components {
+    progress::-webkit-progress-bar {
+      background-color: yellow;
+      border-radius: 7px;
+    }
+  
+    progress::-webkit-progress-value {
+      background-color: magenta;
+      border-radius: 4px;
+      /* box-shadow: 1px 1px 5px 3px rgba(255, 0, 0, 0.8); */
+    }
+   
+  }
+  
+
+
+
