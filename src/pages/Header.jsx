@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from "../assets/Logo.png"
-import { LampIcon, Menu } from 'lucide-react'
+import {  Menu } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 
 function Header() {
@@ -19,10 +20,10 @@ function Header() {
 
           <div className='hidden md:flex gap-6 font-mono' >
               <h1 className='text-white md:py-3 text-2xl font-medium'>Home</h1>
+              <h1 className='text-white md:py-3 text-2xl font-medium'>About</h1>
               <h1 className='text-white md:py-3 text-2xl font-medium'>skills</h1>
               <h1 className='text-white md:py-3 text-2xl font-medium'>Project</h1>
-              <h1 className='text-white md:py-3 text-2xl font-medium'>Contact</h1>
-              <h1 className='text-white md:py-3 text-2xl font-medium'>About </h1>
+              <h1 className='text-white md:py-3 text-2xl font-medium'>Contact </h1>
   
          </div>
 
@@ -32,10 +33,10 @@ function Header() {
             {open && 
                      <div >
                      <h1 className='text-white md:py-3 text-2xl font-medium'>Home</h1>
+                     <h1 className='text-white md:py-3 text-2xl font-medium'>About</h1>
                      <h1 className='text-white md:py-3 text-2xl font-medium'>skills</h1>
                      <h1 className='text-white md:py-3 text-2xl font-medium'>Project</h1>
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>Contact</h1>
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>About me</h1>
+                     <h1 className='text-white md:py-3 text-2xl font-medium'>Contact </h1>
          
                 </div>}
          </div>

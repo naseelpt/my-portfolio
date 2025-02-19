@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import qwe from "./assets/qwer.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBug, faDiagramProject, faFile, faUserSecret } from '@fortawesome/free-solid-svg-icons'
-import resume from "./assets/resume.cv.pdf"
+import resume from "./assets/My Resume.pdf"
 
 function Aboutme() {
 
