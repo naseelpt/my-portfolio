@@ -8,14 +8,16 @@ function Footer() {
     <div>
 
 
-<div className='md:p-32   '>
+<div className='md:p-32  '>
         <div className=' bg-gradient-to-b  from-violet-800 to-fuchsia-500  outline-amber-50 rounded-2xl flex justify-between items-center px-12 flex-col md:flex-row '>
 
           <div className='flex items-center justify-center md:px-10'>
             <img src={undr} alt="no image" className='pt-16 md:w-[900px] md:h-[600px]' />
           </div>
 
-          <div className='w-fit px-24 ' >
+
+
+          <div className='w-screen md:ps-52 ps-16 ' >
             <h1 className='text-4xl font-medium'>Contact us</h1>
 
          <div className='flex'>
@@ -44,6 +46,8 @@ function Footer() {
 
           </div>
 
+
+
           <div className='pt-14 md:ps-24'>
                 <h1 className='text-2xl font-medium'>contact</h1>
                 <p className='font-light text-xl'> ptnaseel@gmail.com</p>
@@ -57,7 +61,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faTwitter} style={{color: "#FFD43B",}} className='text-4xl' />
                 
                 </div>
-              </div>
+          </div>
 
 
         </div>

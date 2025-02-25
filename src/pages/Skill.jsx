@@ -18,11 +18,11 @@ function Skill() {
 
 
   return (
-    <div className='w-full h-fit'>
+    <div className=''>
       <h1 className='text-white px-32 py-32 text-5xl font-bold p-12 pt-28'>skills</h1>
 
       <div className='flex justify-center'>
-        <div className='grid md:grid-cols-2 gap-4'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-4'>
 
           {skill.map((item) => (<div className=' flex gap-10 w-full  items-center  p-4 justify-between'>
             <h1 className='text-white text-2xl '>{item.name}</h1>

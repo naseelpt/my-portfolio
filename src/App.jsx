@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div className='w-screen bg-[#12061f] min-h-screen flex flex-col'> 
+    <div className=' bg-[#12061f] '> 
       <Header/>
       <Home/>
       <Aboutme/>
