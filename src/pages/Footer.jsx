@@ -8,7 +8,7 @@ function Footer() {
     <div>
 
 
-<div className='md:p-32  '>
+<div className='md:p-32 mt-32  '>
         <div className=' bg-gradient-to-b  from-violet-800 to-fuchsia-500  outline-amber-50 rounded-2xl flex justify-between items-center px-12 flex-col md:flex-row '>
 
           <div className='flex items-center justify-center md:px-10'>
