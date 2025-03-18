@@ -27,7 +27,7 @@ function Header() {
   
          </div>
 
-         <div className='flex md:hidden '>
+         <div className='flex md:hidden bg-amber-400 '>
             <Menu onClick={()=>setopen(!open)}/>
 
             {open && 
