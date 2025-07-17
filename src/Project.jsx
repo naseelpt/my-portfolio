@@ -1,6 +1,8 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { motion } from 'motion/react'
+import tr from '../src/assets/travel.jpg'
+import bo from '../src/assets/boo.jpg'
 import React from 'react'
 
 function Project() {
@@ -211,7 +213,96 @@ function Project() {
 
 </div>
 
-</div>
+     </div>
+
+
+
+     <div className='grid md:grid-cols-1 md:ms-96 mt-24 '>
+
+        <div className=' md:px-80 flex'>
+
+
+
+          <div className=''>
+            <motion.img
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              src={tr} alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px] ' />
+          </div>
+
+
+          <div className='md:pt-4 relative right-[360px] md:right-16  '>
+            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
+
+              <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>Travel</h1>
+
+
+              <a href='https://traveldesigns.netlify.app/'>
+                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[110px] mt-5'>
+                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+
+
+
+
+      <div className='grid md:grid-cols-1 md:ms-96 mt-24 '>
+
+        <div className=' md:px-80 flex'>
+
+
+
+          <div className=''>
+            <motion.img
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1 }}
+              src={bo} alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px] ' />
+          </div>
+
+
+          <div className='md:pt-4 relative right-[360px] md:right-16  '>
+            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
+
+              <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>Travel</h1>
+
+
+              <a href='https://cloudprojects.netlify.app/'>
+                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[110px] mt-5'>
+                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
+                </div>
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
 
 
 
