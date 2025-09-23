@@ -24,7 +24,7 @@ function Project() {
 
 
               <a href='http://cloneshopifyfrontend.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[170px] mt-5'>
+                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[160px] mt-5'>
                   <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
                 </div>
               </a>
@@ -107,7 +107,7 @@ function Project() {
 
 
               <a href='http://cheffyfront.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-52 ms-[180px] mt-5'>
+                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-52 ms-[160px] mt-5'>
                   <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
                 </div>
               </a>
