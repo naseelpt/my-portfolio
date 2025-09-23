@@ -13,12 +13,12 @@ function Project() {
 
 
 
-      <div className='grid md:grid-cols-1 md:ms-32 '>
+      <div className=' w-full md:ps-40 md:p-0 p-4 '>
 
         <div className=' md:px-80 flex'>
 
           <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
+            <div className='bg-white border w-[full] h-16  absolute flex'>
 
               <h1 className=' text-3xl pt-2 font-medium ms-5 '>Shopify</h1>
 
@@ -34,12 +34,12 @@ function Project() {
           </div>
 
 
-          <div className='  '>
+          <div className=' w-full '>
             <motion.img
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
-              src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="no image" className=' md:h-56 md:w-96 h-54 ' />
+              src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px]  ' />
           </div>
 
 
@@ -52,7 +52,7 @@ function Project() {
 
 
 
-      <div className='grid md:grid-cols-1 md:ms-96 mt-24 '>
+      <div className=' md:ms-96 mt-24 md:p-0 p-4 '>
 
         <div className=' md:px-80 flex'>
 
@@ -67,8 +67,8 @@ function Project() {
           </div>
 
 
-          <div className='md:pt-4 relative right-[360px] md:right-16  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
+          <div className='md:pt-4 relative right-[400px] md:right-16  '>
+            <div className='bg-white border rounded md:w-96 w-[360px] h-16 absolute flex'>
 
               <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>E-Commerce</h1>
 
@@ -96,7 +96,7 @@ function Project() {
 
 
 
-      <div className='grid md:grid-cols-1 md:ms-32 mt-24 '>
+      <div className=' md:ms-32 mt-24 md:p-0 p-4 '>
 
         <div className=' md:px-80 flex'>
 
@@ -117,12 +117,12 @@ function Project() {
           </div>
 
 
-          <div className='  '>
+          <div className=' w-full '>
             <motion.img
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
-              src="https://cdn2.vectorstock.com/i/1000x1000/16/86/cartoon-kitchen-sink-with-different-kitchenware-vector-31101686.jpg" alt="no image" className=' md:h-56 md:w-96 h-64 w-[3450px] ' />
+              src="https://cdn2.vectorstock.com/i/1000x1000/16/86/cartoon-kitchen-sink-with-different-kitchenware-vector-31101686.jpg" alt="no image" className=' md:h-56 md:w-96 h-64 w-[390px] ' />
           </div>
 
 
@@ -135,7 +135,7 @@ function Project() {
 
 
 
-      <div className='grid md:grid-cols-1 md:ms-96 mt-24 '>
+      <div className=' md:ms-96 mt-24 md:p-0 p-4 '>
 
         <div className=' md:px-80 flex'>
 
@@ -178,12 +178,12 @@ function Project() {
       </div>
 
 
-      <div className='grid md:grid-cols-1 mt-24 md:ms-32 '>
+      <div className=' mt-24 md:ms-32 md:p-0 p-3 '>
 
         <div className=' md:px-80 flex'>
 
           <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
+            <div className='bg-white border rounded md:w-96 w-[full] h-16 z-[999] absolute flex'>
 
               <h1 className=' text-3xl pt-2 font-medium ms-5 '>Studio</h1>
 
@@ -199,12 +199,12 @@ function Project() {
           </div>
 
 
-          <div className='  '>
+          <div className=' w-full '>
             <motion.img
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 1 }}
-              src="https://img.freepik.com/free-photo/empty-online-radio-studio-broadcasting-room-with-professional-microphone-video-light-used-podcast-transmission-video-podcasting-setup-with-digital-mixer-console-laptop-computer_482257-33423.jpg?t=st=1742283680~exp=1742287280~hmac=d34ccc1d99f6d3297c984af8a671f5a3364124644e86c77f38c2d854cfa86e2b&w=1380" alt="no image" className=' md:h-56 md:w-96 h-54 ' />
+              src="https://img.freepik.com/free-photo/empty-online-radio-studio-broadcasting-room-with-professional-microphone-video-light-used-podcast-transmission-video-podcasting-setup-with-digital-mixer-console-laptop-computer_482257-33423.jpg?t=st=1742283680~exp=1742287280~hmac=d34ccc1d99f6d3297c984af8a671f5a3364124644e86c77f38c2d854cfa86e2b&w=1380" alt="no image" className=' md:h-56 md:w-96 w-[400px] h-54 ' />
           </div>
 
 
@@ -217,7 +217,7 @@ function Project() {
 
 
 
-      <div className='grid md:grid-cols-1 md:ms-96 mt-24 '>
+      <div className=' md:ms-96 mt-24 md:p-0 p-4'>
 
         <div className=' md:px-80 flex'>
 
@@ -238,7 +238,7 @@ function Project() {
               <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>Travel</h1>
 
 
-              <a href='https://traveldesigns.netlify.app/'>
+              <a href='https://travelingdesign.netlify.app/'>
                 <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[110px] mt-5'>
                   <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
                 </div>

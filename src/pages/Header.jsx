@@ -27,11 +27,13 @@ function Header() {
   
          </div>
 
-         <div className='flex md:hidden bg-amber-400 '>
+         <div className='flex md:hidden relative '>
             <Menu onClick={()=>setopen(!open)}/>
 
+         
+
             {open && 
-                     <div >
+                     <div className='absolute top-10 right-0 bg-gray-800 flex gap-2 p-2 flex-col' >
                      <h1 className='text-white md:py-3 text-2xl font-medium'>Home</h1>
                      <h1 className='text-white md:py-3 text-2xl font-medium'>About</h1>
                      <h1 className='text-white md:py-3 text-2xl font-medium'>skills</h1>

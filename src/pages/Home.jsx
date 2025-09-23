@@ -2,14 +2,14 @@ import React from 'react'
 import img from "../assets/image.png"
 import ellip from "../assets/Ellipse 5.png"
 import { motion } from 'motion/react'
-import { div } from 'motion/react-client'
+
 
 
 function Home() {
   return (
     
     <div className=''>
-         <div className='grid md:grid-cols-4 py-36'>
+         <div className='grid md:grid-cols-4 sm-grid-cols-2 grid-cols-1 py-36'>
             <div></div>
 
 
@@ -21,7 +21,7 @@ function Home() {
     
             </div>
 
-            <div className='py-10'>
+            <div className='py-10 p-3 md:p-0'>
           <h1 className='text-white text-2xl -ps-10'>Hello! I Am <span style={{ color: "violet" }}> Muhammed naseel pt</span></h1>
           <h1 className='text-white text-2xl pt-10'>A Designer who</h1>
           <h1 className='text-white md:text-6xl text-4xl pt-2'>judges a book</h1>
@@ -52,7 +52,7 @@ function Home() {
 
 
         
-      <div className='grid grid-cols-1'>
+      <div className='grid  grid-cols-1 p-3 md:p-0'>
         <div className='pt-10'>
           <h1 className=' text-5xl  text-white text-center '>I'm a Web Designer frontond</h1>
           <h1 className='text-white text-2xl text-center'>currently.i am a web designer</h1>

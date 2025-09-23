@@ -17,7 +17,7 @@ function Footer() {
 
 
 
-          <div className='w-screen md:ps-52 ps-16 ' >
+          <div className='w-screen md:ps-52 ps-16 md:pt-0 pt-5' >
             <h1 className='text-4xl font-medium'>Contact us</h1>
 
          <div className='flex'>

@@ -12,7 +12,7 @@ function Aboutme() {
 
 
 <>
-<h1 className='text-white px-32 py-32 text-5xl font-bold p-12 pt-28'>About me</h1>
+<h1 className='text-white px-32  py-32 md:text-5xl sm:text-4xl text-3xl font-bold pt-28'>About me</h1>
        <div className='md:p-20' >
 
     <div className='w-full h-fit bg-gradient-to-b  from-violet-500 to-fuchsia-200 grid grid-cols-1 md:grid-cols-2  rounded-4xl  '>
@@ -22,7 +22,7 @@ function Aboutme() {
 
         <div className='pt-10'>
         
-        <div className='flex gap-5 md:gap-10 '>
+        <div className='flex gap-5 md:gap-10 md:p-0 p-3 sm:p-2 '>
             <div className='bg-black  w-28 h-28 rounded-2xl flex flex-col items-center justify-center hover:transform hover:scale-125 duration-300'>
             <FontAwesomeIcon icon={faUserSecret} style={{color: "#f4f5f6",}}  />
             <h1 className=' text-white text-xl'>Experience</h1>
