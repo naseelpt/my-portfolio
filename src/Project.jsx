@@ -18,7 +18,7 @@ function Project() {
         <div className=' md:px-80 flex'>
 
           <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border w-[full] h-16  absolute flex'>
+            <div className='bg-white border h-16  absolute flex'>
 
               <h1 className=' text-3xl pt-2 font-medium ms-5 '>Shopify</h1>
 
@@ -101,7 +101,7 @@ function Project() {
         <div className=' md:px-80 flex'>
 
           <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
+            <div className='bg-white border rounded md:w-96 w-[350px] h-16 z-[999] absolute flex'>
 
               <h1 className=' text-3xl pt-2 font-medium ms-5 '>Cheffy</h1>
 
