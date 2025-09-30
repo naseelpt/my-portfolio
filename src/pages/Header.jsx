@@ -10,7 +10,7 @@ function Header() {
 
 
   return (
-    <div className='w-full h-fit text-white py-6 md:px-58 px-12 '>
+    <div className='w-full md:fixed h-fit text-white py-6 md:px-58 px-12 '>
 
         <div className='w-full h-full  flex justify-between '>
 
@@ -33,12 +33,12 @@ function Header() {
          
 
             {open && 
-                     <div className='absolute top-10 right-0 bg-gray-800 flex gap-2 p-2 flex-col' >
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>Home</h1>
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>About</h1>
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>skills</h1>
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>Project</h1>
-                     <h1 className='text-white md:py-3 text-2xl font-medium'>Contact </h1>
+                     <div className='absolute text-black md:py-3 text-xl font-bold top-10 right-0 bg-white flex gap-2 p-2 flex-col' >
+                     <h1>Home</h1>
+                     <h1 >About</h1>
+                     <h1>skills</h1>
+                     <h1>Project</h1>
+                     <h1>Contact </h1>
          
                 </div>}
          </div>

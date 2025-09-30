@@ -4,278 +4,383 @@ import { motion } from 'motion/react'
 import tr from '../src/assets/travel.jpg'
 import bo from '../src/assets/boo.jpg'
 import React from 'react'
+import { ArrowRight } from 'lucide-react'
+
 
 function Project() {
+
+
   return (
     <div className='w-full'>
-      <h1 className='ms-16 py-32 text-5xl text-white font-bold'>My project</h1>
+      <h1 className='text-center py-32 md:text-5xl text-3xl text-white font-bold'>My project</h1>
 
 
 
+      <div className=' grid-cols-4 md:grid hidden gap-8 px-32 '>
 
-      <div className=' w-full md:ps-40 md:p-0 p-4 '>
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="" className='w-full h-48' />
 
-        <div className=' md:px-80 flex'>
-
-          <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border h-16  absolute flex'>
-
-              <h1 className=' text-3xl pt-2 font-medium ms-5 '>Shopify</h1>
-
-
-              <a href='http://cloneshopifyfrontend.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[160px] mt-5'>
-                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
-                </div>
-              </a>
-
-            </div>
-
+            <a href='http://cloneshopifyfrontend.netlify.app'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
           </div>
 
-
-          <div className=' w-full '>
-            <motion.img
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px]  ' />
-          </div>
+          <h1 className='font-bold px-3'>Shopify Design</h1>
 
 
-
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
 
 
         </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src="https://img.freepik.com/free-photo/portrait-curly-girl-with-red-lipstick-taking-notes-tablet-pink-background-with-dressees_197531-17620.jpg" alt="" className='w-full h-48' />
+
+            <a href='http://client-frontond-design.netlify.app'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
+          </div>
+
+          <h1 className='font-bold px-3'>E commerce Fetch api</h1>
+
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
+
+
+        </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/16/86/cartoon-kitchen-sink-with-different-kitchenware-vector-31101686.jpg" alt="" className='w-full h-48' />
+
+            <a href='http://cheffyfront.netlify.app'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
+          </div>
+
+          <h1 className='font-bold px-3'>Chuffy Design</h1>
+
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
+
+
+        </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src="https://img.freepik.com/free-photo/closeup-woman-vr-glasses-float-neon-space-with-cables-attached-her-metaverse-avatar-concept_1217-3924.jpg?t=st=1740983253~exp=1740986853~hmac=80905324c874896a44b03337190499634f8de5584feee8543e9640186a33b637&w=1800" alt="" className='w-full h-48' />
+
+            <a href='http://technologydesignfrontend.netlify.app'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
+          </div>
+
+          <h1 className='font-bold px-3'>Technology Design</h1>
+
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
+
+
+        </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src={tr} alt="" className='w-full h-48' />
+
+            <a href='https://travelingdesign.netlify.app/'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
+          </div>
+
+          <h1 className='font-bold px-3'>Traveling Design</h1>
+
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
+
+
+        </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src="https://img.freepik.com/free-photo/empty-online-radio-studio-broadcasting-room-with-professional-microphone-video-light-used-podcast-transmission-video-podcasting-setup-with-digital-mixer-console-laptop-computer_482257-33423.jpg?t=st=1742283680~exp=1742287280~hmac=d34ccc1d99f6d3297c984af8a671f5a3364124644e86c77f38c2d854cfa86e2b&w=1380" alt="" className='w-full h-48' />
+
+            <a href='http://studiodesignfront.netlify.app'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
+          </div>
+
+          <h1 className='font-bold px-3'>Studio Design</h1>
+
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
+
+
+        </div>
+
+
+
 
       </div>
 
 
 
-      <div className=' md:ms-96 mt-24 md:p-0 p-4 '>
-
-        <div className=' md:px-80 flex'>
 
 
+      <div className=' md:hidden flex-col gap-4 flex px-5  '>
 
-          <div className=''>
-            <motion.img
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              src="https://img.freepik.com/free-photo/portrait-curly-girl-with-red-lipstick-taking-notes-tablet-pink-background-with-dressees_197531-17620.jpg" alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px] ' />
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className=' '>
+            <img src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="" className='w-full h-48' />
           </div>
 
-
-          <div className='md:pt-4 relative right-[400px] md:right-16  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 absolute flex'>
-
-              <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>E-Commerce</h1>
+          <h1 className='font-bold px-3'>Shopify Design</h1>
 
 
-              <a href='http://client-frontond-design.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-32 ms-[110px] mt-5'>
-                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
-                </div>
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='https://travelingdesign.netlify.app/'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
               </a>
-
-            </div>
-
-          </div>
-
-
-
-
-
-
-
 
         </div>
 
-      </div>
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className=' '>
+            <img src="https://img.freepik.com/free-photo/portrait-curly-girl-with-red-lipstick-taking-notes-tablet-pink-background-with-dressees_197531-17620.jpg" alt="" className='w-full h-48' />
+          </div>
+
+          <h1 className='font-bold px-3'>E commerce Fetch api</h1>
 
 
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
 
-      <div className=' md:ms-32 mt-24 md:p-0 p-4 '>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
 
-        <div className=' md:px-80 flex'>
-
-          <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border rounded md:w-96 w-[340px] h-16 z-[999] absolute flex'>
-
-              <h1 className=' text-3xl pt-2 font-medium ms-5 '>Cheffy</h1>
-
-
-              <a href='http://cheffyfront.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-52 ms-[160px] mt-5'>
-                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
-                </div>
+           <a href='http://client-frontond-design.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
               </a>
-
-            </div>
-
-          </div>
-
-
-          <div className=' w-full '>
-            <motion.img
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              src="https://cdn2.vectorstock.com/i/1000x1000/16/86/cartoon-kitchen-sink-with-different-kitchenware-vector-31101686.jpg" alt="no image" className=' md:h-56 md:w-96 h-64 w-[390px] ' />
-          </div>
-
-
-
-
 
         </div>
 
-      </div>
-
-
-
-      <div className=' md:ms-96 mt-24 md:p-0 p-4 '>
-
-        <div className=' md:px-80 flex'>
-
-
-
-          <div className=''>
-            <motion.img
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              src="https://img.freepik.com/free-photo/closeup-woman-vr-glasses-float-neon-space-with-cables-attached-her-metaverse-avatar-concept_1217-3924.jpg?t=st=1740983253~exp=1740986853~hmac=80905324c874896a44b03337190499634f8de5584feee8543e9640186a33b637&w=1800" alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px] ' />
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/16/86/cartoon-kitchen-sink-with-different-kitchenware-vector-31101686.jpg" alt="" className='w-full h-48' />
           </div>
 
-
-          <div className='md:pt-4 relative right-[360px] md:right-16  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
-
-              <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>Software</h1>
+          <h1 className='font-bold px-3'>Chuffy Design</h1>
 
 
-              <a href='http://technologydesignfrontend.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[110px] mt-5'>
-                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
-                </div>
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://cheffyfront.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
               </a>
-
-            </div>
-
-          </div>
-
-
-
-
-
-
-
 
         </div>
 
-      </div>
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://img.freepik.com/free-photo/closeup-woman-vr-glasses-float-neon-space-with-cables-attached-her-metaverse-avatar-concept_1217-3924.jpg?t=st=1740983253~exp=1740986853~hmac=80905324c874896a44b03337190499634f8de5584feee8543e9640186a33b637&w=1800" alt="" className='w-full h-48' />
+          </div>
+
+          <h1 className='font-bold px-3'>Technology Design</h1>
 
 
-      <div className=' mt-24 md:ms-32 md:p-0 p-3 '>
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
 
-        <div className=' md:px-80 flex'>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
 
-          <div className='md:pt-4 relative md:right-80  '>
-            <div className='bg-white border rounded md:w-96 w-[full] h-16 z-[999] absolute flex'>
-
-              <h1 className=' text-3xl pt-2 font-medium ms-5 '>Studio</h1>
-
-
-              <a href='http://studiodesignfront.netlify.app'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[180px] mt-5'>
-                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
-                </div>
+           <a href='http://technologydesignfrontend.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
               </a>
-
-            </div>
-
-          </div>
-
-
-          <div className=' w-full '>
-            <motion.img
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              src="https://img.freepik.com/free-photo/empty-online-radio-studio-broadcasting-room-with-professional-microphone-video-light-used-podcast-transmission-video-podcasting-setup-with-digital-mixer-console-laptop-computer_482257-33423.jpg?t=st=1742283680~exp=1742287280~hmac=d34ccc1d99f6d3297c984af8a671f5a3364124644e86c77f38c2d854cfa86e2b&w=1380" alt="no image" className=' md:h-56 md:w-96 w-[400px] h-54 ' />
-          </div>
-
-
-
-
 
         </div>
 
-      </div>
-
-
-
-      <div className=' md:ms-96 mt-24 md:p-0 p-4'>
-
-        <div className=' md:px-80 flex'>
-
-
-
-          <div className=''>
-            <motion.img
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 1 }}
-              src={tr} alt="no image" className=' md:h-56 md:w-96 h-54 w-[400px] ' />
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src={tr} alt="" className='w-full' />
           </div>
 
-
-          <div className='md:pt-4 relative right-[360px] md:right-16  '>
-            <div className='bg-white border rounded md:w-96 w-[360px] h-16 z-[999] absolute flex'>
-
-              <h1 className=' text-3xl pt-2 font-medium ms-5 whitespace-nowrap '>Travel</h1>
+          <h1 className='font-bold px-3'>Traveling Design</h1>
 
 
-              <a href='https://travelingdesign.netlify.app/'>
-                <div className='bg-black rounded-3xl h-5 w-12 flex justify-center items-center md:ms-44 ms-[110px] mt-5'>
-                  <FontAwesomeIcon icon={faArrowRight} style={{ color: "#f3f2f2", }} />
-                </div>
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='https://travelingdesign.netlify.app/'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
               </a>
-
-            </div>
-
-          </div>
-
-
-
-
-
-
-
 
         </div>
 
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://img.freepik.com/free-photo/empty-online-radio-studio-broadcasting-room-with-professional-microphone-video-light-used-podcast-transmission-video-podcasting-setup-with-digital-mixer-console-laptop-computer_482257-33423.jpg?t=st=1742283680~exp=1742287280~hmac=d34ccc1d99f6d3297c984af8a671f5a3364124644e86c77f38c2d854cfa86e2b&w=1380" alt="" className='w-full' />
+          </div>
+
+          <h1 className='font-bold px-3'>Studio Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://studiodesignfront.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+
+
+
       </div>
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -1,71 +1,86 @@
 import React from 'react'
 import undr from "../assets/undraw.svg"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { LocateIcon, Mail, Phone } from 'lucide-react'
+
 
 function Footer() {
   return (
     <div>
 
 
-<div className='md:p-32 mt-32  '>
-        <div className=' bg-gradient-to-b  from-violet-800 to-fuchsia-500  outline-amber-50 rounded-2xl flex justify-between items-center px-12 flex-col md:flex-row '>
-
-          <div className='flex items-center justify-center md:px-10'>
-            <img src={undr} alt="no image" className='pt-16 md:w-[900px] md:h-[600px]' />
-          </div>
 
 
+      <h1 className='text-white pt-32 text-center text-3xl md:text-5xl font-bold '>Contact</h1>
 
-          <div className='w-screen md:ps-52 ps-16 md:pt-0 pt-5' >
-            <h1 className='text-4xl font-medium'>Contact us</h1>
-
-         <div className='flex'>
-              <div className='pt-10 '>
+      <div className='md:px-32 px-6 py-20'>
+        
+        <div className=' bg-gradient-to-b  from-white w-full  to-fuchsia-500 rounded-2xl'>
+          <h1 className='md:text-5xl text-3xl py-6 text-black text-center font-bold'>Get in touch</h1>
+          <div className=' md:px-28 px-3 py- md:flex '>
   
-                <p className='text-xl'>Full Name</p>
-                <input type="text" placeholder='name' className='outline w-52 h-0' />
+           
   
-                <p className='text-xl pt-10'>Full Name</p>
-                <input type="text" placeholder='name' className='outline w-52 h-0' />
+              <div className=' '>
   
-                <p className='text-xl pt-10'>Full Name</p>
-                <input type="text" placeholder='name' className='outline w-52 h-0' />
-
-                <div className='pt-10'>
-                <button className='bg-yellow-400 w-34 h-9 rounded-3xl '>Contact us</button>
-              </div>
-               
-              </div>
-
-
-
-             
-         </div>
-
-
-          </div>
-
-
-
-          <div className='pt-14 md:ps-24'>
-                <h1 className='text-2xl font-medium'>contact</h1>
-                <p className='font-light text-xl'> ptnaseel@gmail.com</p>
-
-                <h1 className='text-2xl font-medium pt-5'>Based in</h1>
-                <p className='font-light text-xl'> Kerala, Malappuram</p>
-
-                <div className='pt-16 flex justify-between'>
-                <FontAwesomeIcon icon={faFacebook} style={{color: "#FFD43B",}} className='text-4xl' />
-                <FontAwesomeIcon icon={faInstagram} style={{color: "#FFD43B",}} className='text-4xl' />
-                <FontAwesomeIcon icon={faTwitter} style={{color: "#FFD43B",}} className='text-4xl' />
-                
+              <img src={undr} alt="no image" className='md:w-[300px] md:h-[300px]' />
+  
+              <div className='pt-4'>
+  
+                  <div className='flex gap-3 items-center py-4'>
+                  <Mail md:size={35} className='text-black'/>
+                  <h1 className='text-black text-xl font-mono'>ptnaseel@gmail.com</h1>
                 </div>
+  
+                <div className='flex gap-3 items-center py-4'>
+                  <Phone md:size={35} className='text-black'/>
+                  <h1 className='text-black text-xl font-mono'>+91 6235639468</h1>
+                </div>
+  
+                 <div className='flex gap-3 items-center py-4'>
+                  <LocateIcon md:size={35} className='text-black'/>
+                  <h1 className='text-black text-xl font-mono'>Malappuram,Kerala</h1>
+                </div>
+  
+  
+              </div>
+  
+  
+            </div>
+  
+            <div className=' md:px-52 md:py-0 mt-10'>
+  
+              <div>
+                <label className='text-black'>Your Name</label>
+                <input type="text" placeholder='Enter your name  ' className='border border-black block placeholder:text-black md:w-[550px] w-72 p-3 mt-2' />
+              </div>
+
+                <div className='pt-2'>
+                <label className='text-black'>Your Email</label>
+                <input type="text" placeholder='Enter your name  ' className='border border-black block placeholder:text-black md:w-[550px] w-72 p-3 mt-2' />
+              </div>
+
+               <div className='pt-2'>
+                <label className='text-black'>Your message</label>
+                <textarea type="text" placeholder='Enter your name  ' className='border p-3 border-black placeholder:text-black md:w-[550px] w-72 h-40 mt-2' />
+              </div>
+
+              <button className='p-3 rounded-2xl mt-5 hover:bg-black hover:text-white bg-amber-50 font-bold'>Submit now</button>
+  
+            </div>
+  
+  
+  
+            
+  
+            </div>
+        </div>
+
           </div>
 
 
-        </div>
-      </div> 
+
+
+
 
 
 

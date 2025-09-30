@@ -1,58 +1,77 @@
 import React, { useEffect, useState } from 'react'
 import qwe from "./assets/qwer.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBug, faDiagramProject, faFile, faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import {  faFile  } from '@fortawesome/free-solid-svg-icons'
 import resume from "./assets/My Resume.pdf"
 
 function Aboutme() {
 
 
 
+
+
   return (
 
 
-<>
-<h1 className='text-white px-32  py-32 md:text-5xl sm:text-4xl text-3xl font-bold pt-28'>About me</h1>
-       <div className='md:p-20' >
+    <>
+      <h1 className='text-white text-center py-10 md:py-32 md:text-5xl sm:text-4xl text-3xl font-bold '>About me</h1>
 
-    <div className='w-full h-fit bg-gradient-to-b  from-violet-500 to-fuchsia-200 grid grid-cols-1 md:grid-cols-2  rounded-4xl  '>
-        <div className='md:px-40 px-10 py-10  hover:transform hover:scale-110 duration-300'>
-            <img src={qwe} alt="no image" className='w-72 h-72 rounded-4xl' />
-        </div>
 
-        <div className='pt-10'>
-        
-        <div className='flex gap-5 md:gap-10 md:p-0 p-3 sm:p-2 '>
-            <div className='bg-black  w-28 h-28 rounded-2xl flex flex-col items-center justify-center hover:transform hover:scale-125 duration-300'>
-            <FontAwesomeIcon icon={faUserSecret} style={{color: "#f4f5f6",}}  />
-            <h1 className=' text-white text-xl'>Experience</h1>
+
+
+      <div className='w-full md:px-28 px-5'>
+
+        <div className='w-full md:flex gap-22 h-fit bg-gradient-to-b md:p-16 p-10  from-violet-500  to-fuchsia-200  rounded-4xl '>
+
+          <div>
+            <img src={qwe} alt="" className=' md:w-70 md:h-70 w-52 h-52 rounded-4xl'/>
+          </div>
+
+          <div className='md:flex-1 pt-5 md:pt-0'>
+            <h1 className='text-xl font-bold'>Frontend React Js Developer</h1>
+
+            <p className='pt-5'>Enthusiastic React JS Developer (Fresher) with hands-on experience in developing responsive and user-friendly web applications. Skilled
+            in HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind CSS, Git, GitHub, and REST APIs. Experienced in building and deploying projects
+            on Netlify & GitHub. Passionate about frontend design, problem-solving, and continuous learning.</p>
+
+
+            <div className='pt-6 md:flex gap-10'>
+
+              <div >
+                <h1 className='text-xl font-bold'>Education</h1>
+                <p>Bachlore Of Computer Application (BCA)</p>
+                <p>University of Calicut (2021 - 2024)</p>
+              </div>
+
+              <div>
+                <h1 className=' text-xl font-bold'>Experience</h1>
+                <p>Luminar Technolab - Mearn Stack ( 06/2024 - 12/2024 ) Kochi </p>
+
+                <p>Docto Smart - React Js ( 01/2025 - 03/2025 ) Kozhikode </p>
+              </div>
+
+
             </div>
+              
 
-            <div className='bg-black  w-28 h-28 rounded-2xl flex flex-col items-center justify-center  hover:transform hover:scale-125 duration-300 '>
-            <FontAwesomeIcon icon={faDiagramProject} style={{color: "#fcfcfd",}} />
-            <h1 className=' text-white text-xl'>Completed</h1>
-            </div>
+               <div className='bg-black w-48 mt-10 rounded-2xl h-8 flex justify-center items-center '>
+                <a href={resume} download="resume" className=' text-white'> Download Cv</a>
+                <FontAwesomeIcon icon={faFile} style={{ color: "#eeeff2", }} className='' />
+              </div>
+           
+          </div>
 
-            <div className='bg-black  w-28 h-28 rounded-2xl flex flex-col items-center justify-center  hover:transform hover:scale-125 duration-300 '>
-            <FontAwesomeIcon icon={faBug} style={{color: "#f5f5f5",}} />
-            <h1 className=' text-white text-xl'>Report</h1>
-            </div>
+          
+
+
+
+
         </div>
 
-        <div className='mt-10 md:p-0 p-10'>
-        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis aperiambr <br /> porro natus alias molestias quos porro natus alias molestias quos </p>
 
-       <div className='bg-black w-48 mt-5 rounded-2xl h-8 flex justify-center items-center '>
-       <a href={resume} download="resume" className=' text-white'> Download Cv</a>
-            <FontAwesomeIcon icon={faFile} style={{color: "#eeeff2",}} className='ms-2'/>
-       </div>
-        </div>
-        
-        </div>
+      </div>
 
-    </div>
 
-    </div>
 
     </>
   )

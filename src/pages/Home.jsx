@@ -1,68 +1,84 @@
 import React from 'react'
 import img from "../assets/image.png"
 import ellip from "../assets/Ellipse 5.png"
-import { motion } from 'motion/react'
+import ep from "../assets/qwer.jpg"
+import {motion } from 'motion/react'
+
 
 
 
 function Home() {
   return (
-    
-    <div className=''>
-         <div className='grid md:grid-cols-4 sm-grid-cols-2 grid-cols-1 py-36'>
-            <div></div>
+
+    <div className='w-full'>
 
 
-            <div className='ba md:w-full h-96 flex justify-center items-center  ' >
-              <motion.img
-                initial={{ opacity: 0, x: -50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: '.5' }} src={img} alt="no image" />
-    
-            </div>
+      <div className='md:px-30 md:pt-40 py-6 px-6 grid md:grid-cols-2 grid-cols-1 sm:grid-cols-1'>
 
-            <div className='py-10 p-3 md:p-0'>
-          <h1 className='text-white text-2xl -ps-10'>Hello! I Am <span style={{ color: "violet" }}> Muhammed naseel pt</span></h1>
-          <h1 className='text-white text-2xl pt-10'>A Designer who</h1>
-          <h1 className='text-white md:text-6xl text-4xl pt-2'>judges a book</h1>
+       <div>
+  <h1 className="text-xl text-white">Hey I am Muhammmed Naseel Pt</h1>
+
+  <h1 className="text-white font-bold text-6xl pt-4">
+    Frontend <br /> React Js Developer
+  </h1>
+
+  <p className="text-white pt-5">
+    Enthusiastic React JS Developer (Fresher) with hands-on experience in
+    developing responsive and user-friendly web applications. Skilled in HTML,
+    CSS, JavaScript, React.js, Bootstrap, Tailwind CSS, Git, GitHub, and REST
+    APIs. Experienced in building and deploying projects on Netlify & GitHub.
+    Passionate about frontend design, problem-solving, and continuous learning.
+  </p>
+
+  <div className="flex gap-2 py-5">
+    <motion.button 
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }} 
+     className="px-4 py-2 rounded-2xl font-medium border border-white hover:border-pink-500 text-white">
+      Hire Me
+
+      </motion.button>
+   
+
+    <motion.button
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      className="px-4 py-2 rounded-2xl font-medium border border-white hover:border-pink-500 text-white">
+      Talk To Me
+    </motion.button>
+  </div>
+</div>
 
 
-          <div className='flex items-end  gap-4 '>
-            <h1 className='text-white md:text-6xl text-4xl pt-5 '>by its</h1>
-            <div className='relative flex '>
-              <motion.img
-                initial={{ opacity: 0, x: 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: '1' }}
-                src={ellip} alt="no image" className=' w-48 h-fit pt-7 ' />
-              <h1 className=' text-white text-5xl  absolute md:left-4 left-4 top-8 '><span style={{ color: 'violet' }}>cover</span>  ...</h1>
+
+
+        <div className='py-10 md:py-0 md:ps-52'>
+          <div className='md:w-[400px] w-80 h-80 rounded-full md:h-[400px] flex items-center justify-center bg-violet-300'>
+
+            <div className='md:w-[390px] w-78 h-78 rounded-full md:h-[390px]  flex items-center justify-center bg-white'>
+
+              <div>
+                <img src={ep} alt="" className='md:w-[350px] md:h-[350px] w-73 h-73 rounded-full ' />
+              </div>
 
             </div>
 
           </div>
-
-
-
-
-        </div>
-
-        <div></div>
-
         </div>
 
 
-        
-      <div className='grid  grid-cols-1 p-3 md:p-0'>
-        <div className='pt-10'>
-          <h1 className=' text-5xl  text-white text-center '>I'm a Web Designer frontond</h1>
-          <h1 className='text-white text-2xl text-center'>currently.i am a web designer</h1>
-          <p className='md:px-96 text-white pt-10'>Motivated React Developer Intern with a solid understanding of HTML, CSS, JavaScript, React.js, Bootstrap, Git, Tailwind. Experienced in developing and maintaining frontend web applications. responsive and designs skills and the ability to adapt to new challenges. Committed to continuous learning, improving technical skills, and contributing to team-driven projects in a collaborative environment</p>
-        </div>
+
+
       </div>
 
 
+
+
+
+
+
     </div>
-    
+
   )
 }
 
