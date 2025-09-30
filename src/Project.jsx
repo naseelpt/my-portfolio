@@ -233,7 +233,7 @@ function Project() {
             <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
           </div>
 
-           <a href='https://travelingdesign.netlify.app/'>
+           <a href='http://cloneshopifyfrontend.netlify.app'>
                <div className='py-2 px-3 '>
   
           <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
