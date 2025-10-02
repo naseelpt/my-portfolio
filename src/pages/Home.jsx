@@ -18,7 +18,7 @@ function Home() {
        <div>
   <h1 className="text-xl text-white">Hey I am Muhammmed Naseel Pt</h1>
 
-  <h1 className="text-white font-bold text-6xl pt-4">
+  <h1 className="text-white font-bold md:text-6xl text-4xl pt-4">
     Frontend <br /> React Js Developer
   </h1>
 
@@ -52,19 +52,14 @@ function Home() {
 
 
 
-        <div className='py-10 md:py-0 md:ps-52'>
-          <div className='md:w-[400px] w-80 h-80 rounded-full md:h-[400px] flex items-center justify-center bg-violet-300'>
+        <div className="py-10 md:py-0 flex justify-end">
+  <div className="md:w-[400px] w-80 h-80 md:h-[400px] rounded-full flex items-center justify-center bg-violet-300">
+    <div className="md:w-[390px] w-[310px] h-[310px] md:h-[390px] rounded-full flex items-center justify-center bg-white">
+      <img src={ep} alt="" className="md:w-[350px] md:h-[350px] w-72 h-72 rounded-full" />
+    </div>
+  </div>
+</div>
 
-            <div className='md:w-[390px] w-78 h-78 rounded-full md:h-[390px]  flex items-center justify-center bg-white'>
-
-              <div>
-                <img src={ep} alt="" className='md:w-[350px] md:h-[350px] w-73 h-73 rounded-full ' />
-              </div>
-
-            </div>
-
-          </div>
-        </div>
 
 
 

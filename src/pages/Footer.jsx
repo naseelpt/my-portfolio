@@ -47,7 +47,7 @@ function Footer() {
   
             </div>
   
-            <div className=' md:px-52 md:py-0 mt-10'>
+            <div className=' md:px-52 md:py-8 py-10'>
   
               <div>
                 <label className='text-black'>Your Name</label>

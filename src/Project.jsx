@@ -204,6 +204,37 @@ function Project() {
 
         </div>
 
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative group'>
+            <img src="https://www.cosmeticsdesign-asia.com/resizer/bZMyviBPg8d1S34IklV83MKQBdE=/arc-photo-williamreed/eu-central-1-prod/public/OGCEL3H6JBPH5CZ3AK5IVVF2ZM.jpg" alt="" className='w-full h-48' />
+
+            <a href='https://perfumedesign.netlify.app/'>
+              <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+              </div>
+            </a>
+          </div>
+
+          <h1 className='font-bold px-3'>Studio Design</h1>
+
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+            whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{ duration: 0.8, ease: "easeOut" }}
+            className="py-3 px-3 flex flex-wrap gap-2"
+          >
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+            <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+          </motion.div>
+
+
+        </div>
+
 
 
 
@@ -369,6 +400,33 @@ function Project() {
           </div>
 
            <a href='http://studiodesignfront.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://www.cosmeticsdesign-asia.com/resizer/bZMyviBPg8d1S34IklV83MKQBdE=/arc-photo-williamreed/eu-central-1-prod/public/OGCEL3H6JBPH5CZ3AK5IVVF2ZM.jpg" alt="" className='w-full' />
+          </div>
+
+          <h1 className='font-bold px-3'>e commerce perfume Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='https://perfumedesign.netlify.app/'>
                <div className='py-2 px-3 '>
   
           <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>

@@ -23,7 +23,7 @@ function App() {
 
 
   return (
-    <div className=' bg-[#12061f] '> 
+    <div className=' bg-[#12061f] w-full min-h-screen '> 
       <Header/>
       <Home/>
       <Aboutme/>
