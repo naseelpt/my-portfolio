@@ -13,13 +13,13 @@ import Slider from 'react-slick'
 function Project() {
 
   const settings = {
-    dots: true,          // small navigation dots
-    infinite: false,      // loop cheyyan
-    speed: 500,          // slide speed (ms)
-    slidesToShow:4,     // oru timeil oru slide
-    slidesToScroll:1,   // oru scrollil 1 slide
-    autoplay: false,      // auto move cheyyan
-    autoplaySpeed: 2000, // time interval (ms)
+    dots: true,          
+    infinite: false,    
+    speed: 500,          
+    slidesToShow:4,     
+    slidesToScroll:1,   
+    autoplay: false,     
+    autoplaySpeed: 2000, 
   };
 
 

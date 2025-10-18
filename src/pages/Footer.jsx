@@ -12,7 +12,7 @@ function Footer() {
 
       <h1 className='text-white pt-32 text-center text-3xl md:text-5xl font-bold '>Contact</h1>
 
-      <div className='md:px-32 px-6 py-20'>
+      <div className='md:px-32 px-3 py-20'>
         
         <div className=' bg-gradient-to-b  from-white w-full  to-fuchsia-500 rounded-2xl'>
           <h1 className='md:text-5xl text-3xl py-6 text-black text-center font-bold'>Get in touch</h1>

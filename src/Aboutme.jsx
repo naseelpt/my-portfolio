@@ -19,12 +19,12 @@ function Aboutme() {
 
 
 
-      <div className='w-full md:px-28 px-5'>
+      <div className='w-full md:px-28 px-2'>
 
-        <div className='w-full md:flex gap-22 h-fit bg-gradient-to-b md:p-16 p-10  from-violet-500  to-fuchsia-200  rounded-4xl '>
+        <div className='w-full md:flex gap-22 h-fit bg-gradient-to-b md:p-16 p-5  from-violet-500  to-fuchsia-200  rounded-4xl '>
 
           <div>
-            <img src={qwe} alt="" className=' md:w-70 md:h-70 w-52 h-52 rounded-4xl'/>
+            <img src={qwe} alt="" className=' md:w-70 md:h-70 w-80 h-72 rounded-4xl'/>
           </div>
 
           <div className='md:flex-1 pt-5 md:pt-0'>
