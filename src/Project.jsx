@@ -12,39 +12,15 @@ import Slider from 'react-slick'
 
 function Project() {
 
-const settings = {
-  dots: true,
-  infinite: false,
-  speed: 500,
-  slidesToShow: 4,
-  slidesToScroll: 1,
-  autoplay: false,
-  autoplaySpeed: 4000,
-  responsive: [
-    {
-      breakpoint: 1024, 
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 768, 
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
-      },
-    },
-    {
-      breakpoint: 480, 
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-      },
-    },
-  ],
-};
-
+  const settings = {
+    dots: true,          // small navigation dots
+    infinite: false,      // loop cheyyan
+    speed: 500,          // slide speed (ms)
+    slidesToShow:4,     // oru timeil oru slide
+    slidesToScroll:1,   // oru scrollil 1 slide
+    autoplay: false,      // auto move cheyyan
+    autoplaySpeed: 2000, // time interval (ms)
+  };
 
 
   return (
@@ -52,10 +28,10 @@ const settings = {
       <h1 className='text-center py-32 md:text-5xl text-3xl text-white font-bold'>My project</h1>
 
 
-       <div className="w-[80%] mx-auto   ">    
-      <Slider {...settings}>
-
-      
+     <div className='md:flex hidden'>
+         <div className="w-[80%] mx-auto mt-10 ">    
+        <Slider {...settings}>
+  
              <div className=' bg-amber-50 w-full h-full'>
             <div className='relative group'>
               <img src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="" className='w-full h-48' />
@@ -273,15 +249,210 @@ const settings = {
   
           </div>
          
-      
-      </Slider>
-    </div>
+        </Slider>
+      </div>
+     </div>
 
 
 
 
 
-      
+      <div className=' md:hidden flex-col gap-4 flex px-5  '>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className=' '>
+            <img src="https://static.toiimg.com/thumb/msid-99993144,width-1280,height-720,resizemode-4/99993144.jpg" alt="" className='w-full h-48' />
+          </div>
+
+          <h1 className='font-bold px-3'>Shopify Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://cloneshopifyfrontend.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className=' '>
+            <img src="https://img.freepik.com/free-photo/portrait-curly-girl-with-red-lipstick-taking-notes-tablet-pink-background-with-dressees_197531-17620.jpg" alt="" className='w-full h-48' />
+          </div>
+
+          <h1 className='font-bold px-3'>E commerce Fetch api</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://client-frontond-design.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/16/86/cartoon-kitchen-sink-with-different-kitchenware-vector-31101686.jpg" alt="" className='w-full h-48' />
+          </div>
+
+          <h1 className='font-bold px-3'>Chuffy Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://cheffyfront.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://img.freepik.com/free-photo/closeup-woman-vr-glasses-float-neon-space-with-cables-attached-her-metaverse-avatar-concept_1217-3924.jpg?t=st=1740983253~exp=1740986853~hmac=80905324c874896a44b03337190499634f8de5584feee8543e9640186a33b637&w=1800" alt="" className='w-full h-48' />
+          </div>
+
+          <h1 className='font-bold px-3'>Technology Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://technologydesignfrontend.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src={tr} alt="" className='w-full' />
+          </div>
+
+          <h1 className='font-bold px-3'>Traveling Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='https://travelingdesign.netlify.app/'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+         <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://img.freepik.com/free-photo/empty-online-radio-studio-broadcasting-room-with-professional-microphone-video-light-used-podcast-transmission-video-podcasting-setup-with-digital-mixer-console-laptop-computer_482257-33423.jpg?t=st=1742283680~exp=1742287280~hmac=d34ccc1d99f6d3297c984af8a671f5a3364124644e86c77f38c2d854cfa86e2b&w=1380" alt="" className='w-full' />
+          </div>
+
+          <h1 className='font-bold px-3'>Studio Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='http://studiodesignfront.netlify.app'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+        <div className=' bg-amber-50 w-full h-full'>
+          <div className='relative '>
+            <img src="https://www.cosmeticsdesign-asia.com/resizer/bZMyviBPg8d1S34IklV83MKQBdE=/arc-photo-williamreed/eu-central-1-prod/public/OGCEL3H6JBPH5CZ3AK5IVVF2ZM.jpg" alt="" className='w-full' />
+          </div>
+
+          <h1 className='font-bold px-3'>e commerce perfume Design</h1>
+
+
+          <div className='py-3 px-3 flex flex-wrap gap-2'>
+
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Html</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Css</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Java Script</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>React</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Tailwind</button>
+            <button className='bg-black text-white font-mono px-3 py-1 rounded-4xl'>Git</button>
+          </div>
+
+           <a href='https://perfumedesign.netlify.app/'>
+               <div className='py-2 px-3 '>
+  
+          <button className='bg-pink-600 text-white flex items-center gap-2 py-1 rounded-2xl px-4'>view details <ArrowRight size={15}/> </button>
+               </div>
+              </a>
+
+        </div>
+
+
+
+
+      </div>
+
 
 
     </div>
