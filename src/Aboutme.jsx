@@ -19,13 +19,18 @@ function Aboutme() {
 
 
 
-      <div className='w-full md:px-28 px-2'>
+      <div className='w-full lg:px-6 xl:px-28 md:px-6 sm:px-6 px-2'>
 
         <div className='w-full md:flex gap-22 h-fit bg-gradient-to-b md:p-16 p-5  from-violet-500  to-fuchsia-200  rounded-4xl '>
 
-          <div>
-            <img src={qwe} alt="" className=' md:w-70 md:h-70 w-80 h-72 rounded-4xl'/>
-          </div>
+         <div>
+  <img
+    src={qwe}
+    alt=""
+    className="w-full h-80 rounded-3xl object-cover"
+  />
+</div>
+
 
           <div className='md:flex-1 pt-5 md:pt-0'>
             <h1 className='text-xl font-bold'>Frontend React Js Developer</h1>
