@@ -231,7 +231,7 @@ function Project() {
 
 
 
-
+{/* mobile */}
 
   <div className="xl:hidden flex flex-col gap-6 px-5">
     
@@ -263,9 +263,15 @@ function Project() {
       {/* View Button */}
       <a href={item.link}>
         <div className="pb-4 px-4">
-          <button className="bg-pink-600 text-white flex items-center gap-2 py-2 rounded-2xl px-4 text-sm">
-            view details <ArrowRight size={15} />
-          </button>
+<button
+  className="btn-style704 text-white flex items-center gap-2 py-2 rounded-2xl px-4 text-sm"
+  data-hover="click"
+>
+  <span className="relative z-10">view details</span>
+  <ArrowRight size={15} className="relative z-10" />
+</button>
+
+       
         </div>
       </a>
 

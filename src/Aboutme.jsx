@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import qwe from "./assets/qwer.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faFile  } from '@fortawesome/free-solid-svg-icons'
-import resume from "./assets/MUHAMMEDNASEELPT.pdf"
+import resume from "./assets/MUHAMMED NASEEL PT.pdf"
 
 function Aboutme() {
 
