@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import qwe from "./assets/qwer.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faFile  } from '@fortawesome/free-solid-svg-icons'
-import resume from "./assets/My Resume.pdf"
+import resume from "./assets/MUHAMMEDNASEELPT.pdf"
 
 function Aboutme() {
 
@@ -50,7 +50,7 @@ function Aboutme() {
 
               <div>
                 <h1 className=' text-xl font-bold'>Experience</h1>
-                <p>Luminar Technolab - Mearn Stack ( 06/2024 - 12/2024 ) Kochi </p>
+                <p>Wahylab Solutions - Mearn Stack ( 10/2025 - Present ) Kochi </p>
 
                 <p>Docto Smart - React Js ( 01/2025 - 03/2025 ) Kozhikode </p>
               </div>

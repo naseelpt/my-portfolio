@@ -32,6 +32,12 @@ function Project() {
       img: "https://img.freepik.com/free-photo/portrait-curly-girl-with-red-lipstick-taking-notes-tablet-pink-background-with-dressees_197531-17620.jpg",
       link: "https://ecommercecartwishlist.netlify.app/",
     },
+
+     {
+      title: "Purchase Design",
+      img: "https://cdn.dribbble.com/userupload/16608076/file/original-6090f25af67394c644817e674fd2485a.png?format=webp&resize=400x300&vertical=center",
+      link: "https://purchasewebsitedesign.netlify.app/",
+    },
   
     {
       title: "Traveling Design",
@@ -75,6 +81,37 @@ function Project() {
             </div>
   
             <h1 className='font-bold px-3'>E Comerce Website</h1>
+  
+  
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5, rotateY: 45 }}
+              whileInView={{ opacity: 1, scale: 1, rotateY: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="py-3 px-3 flex flex-wrap gap-2"
+            >
+              <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Html</button>
+              <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Css</button>
+              <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Java Script</button>
+              <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">React</button>
+              <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Tailwind</button>
+              <button className="bg-black text-white font-mono px-3 py-1 rounded-4xl">Git</button>
+            </motion.div>
+  
+  
+          </div>
+
+           <div className=' bg-amber-50 w-full h-full'>
+            <div className='relative group'>
+              <img src="https://cdn.dribbble.com/userupload/16608076/file/original-6090f25af67394c644817e674fd2485a.png?format=webp&resize=400x300&vertical=center" alt="" className='w-full h-48' />
+  
+              <a href='https://purchasewebsitedesign.netlify.app/'>
+                <div className=' absolute hidden group-hover:flex top-1/2 w-full -translate-y-1/2 left-1/2 justify-center items-center duration-200 -translate-x-1/2  h-full group-hover:backdrop-blur-sm'>
+                  <button className='bg-red-500 p-2 w-64  text-white rounded-3xl'>View Project</button>
+                </div>
+              </a>
+            </div>
+  
+            <h1 className='font-bold px-3'>Purchase Design</h1>
   
   
             <motion.div
@@ -168,7 +205,7 @@ function Project() {
               </a>
             </div>
   
-            <h1 className='font-bold px-3'>Studio Design</h1>
+            <h1 className='font-bold px-3'>Perfume Design</h1>
   
   
             <motion.div
