@@ -16,7 +16,7 @@ function Home() {
       <div className='md:px-30 md:pt-40 py-6 px-6 grid lg:grid-cols-2 xl:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 '>
 
         <div>
-          <h1 className="text-xl text-white">Hey I am Muhammmed Naseel Pt</h1>
+          <h1 className="text-xl text-white">Hey I am Muhammmed Naseel PT</h1>
 
           <h1 className="text-white font-bold md:text-6xl text-4xl pt-4">
             Frontend <br /> React Js Developer
